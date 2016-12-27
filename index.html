@@ -80,10 +80,10 @@
 <script>
     var btn=document.querySelector("button");
     var ul=document.querySelector("ul");
-    btn.addEventListener("click",function(){
-        ul.classList.add("move");
+    btn.addEventListener("mouseenter",function(){
+       ul.classList.add("move");
     });
-    btn.addEventListener("touchmove",function(){
+    btn.addEventListener("mouseleave",function(){
         ul.classList.remove("move");
     });
 </script>
